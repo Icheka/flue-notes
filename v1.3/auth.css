@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 2, 2020, 6:53:49 PM
+    Author     : Icheka
+*/
+
+    #lock-main {
+        width: 100%;
+        height: auto;
+        border: 2px solid #efefef;
+        border-radius: 8px;
+        padding: 6px 3px;
+        padding-bottom: 12px;
+        text-align: center;
+        margin: auto;
+        background-color: white;
+    }
+    .lock-input-element {
+        border: 0px;
+        border-bottom: 3px solid black;
+        width: 90%;
+        height: 50px;
+    }
+    .lock-button {
+        width: 25%;
+        height: 2.25em;
+        font-size: 105%;
+        border: 1px solid black;
+        color: white;
+        background-color: black;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .lock-button:hover {
+        border-top: 2px solid black;
+        background: linear-gradient(to bottom, black, black, black, black, #001);
+        box-shadow: 0px 2px 1px black;
+    }

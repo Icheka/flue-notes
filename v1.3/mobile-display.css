@@ -1,0 +1,218 @@
+/* 
+    Created on : Jul 2, 2020, 1:22:50 PM
+    Author     : Icheka
+*/
+@media only screen and (min-width:300px) and (max-width:768px) {
+    body {
+        margin: 2px;
+        font-family: Arial, sans-serif;
+    }
+    header {
+        border: 1px solid grey;
+        color: #19367a;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        background-image: url("bg.PNG");
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #325232;
+        padding-bottom: 3px;
+        padding: 2px;
+        position: relative;
+        top: 0px;
+    }
+    #name {
+        font-size: 130%;
+        width: 38%;
+    }
+    #menu {
+        border: 1px solid white;
+        text-align: center;
+        width: 7%;
+        height: auto;
+        padding: 1px 2px 0px;
+    }
+    .menu-bar {
+        border: 2px solid #19367a;
+        border-radius: 20%;
+        width: 80%;
+        margin-bottom: 4px;
+        margin-top: 2px;
+    }
+    .menu-content-link {
+        width: 90%;
+        height: 15%;
+        color: white;
+        text-align: left;
+        border-bottom: 2px solid #efefef;
+        padding: 4px;
+    }
+    #main-content {
+        height: 300px;
+        width: 85%;
+        float: right;
+        margin-bottom: 15px;
+        background-color: #19367a;
+        position: relative;
+        top: 0px;
+    }
+    footer {
+        clear: both;
+        padding-top: 4px;
+        text-align: center;
+        background-color: orange;
+        color: white;
+        padding-bottom: 2px;
+    }
+    footer > p { 
+        //install custom font here
+        font-family: "Freestyle Script", "Zapf-Chancery", cursive, fantasy sans-serif;
+        font-weight: bold;
+        font-size: 140%;
+    }
+    #note-area {
+        width: 100%;
+        height: 100%;
+        padding: 2px;
+        float: right;
+        resize: none;
+        overflow-style: scrollbar;
+        overflow-wrap: break-word;
+    }
+    #note-area:focus {
+        border: 2px solid pink;
+        background-color: #efefef;
+    }
+    .clear {
+        clear: both;
+    }
+    .button {
+        cursor: pointer;
+    }
+    .button-area {
+        text-align: right;
+        width: 8.5%;
+        height: 18.8em;
+        position: absolute;
+        top: 6.3em;
+        left: 4px;
+        padding: 2px 8px;
+        background-color: #eddfaf;
+        z-index: 1;
+    }
+    .main-button {
+        padding: 6% 8%;
+        padding-bottom: 0.5%;
+        background-color: #19367a;
+        background: -webkit-linear-gradient(to bottom, #19367a, #5b7ac4, black);
+        background: -ms-linear-gradient(to bottom, #19367a, #5b7ac4, black);
+        background: -o-linear-gradient(to bottom, #19367a, #5b7ac4, black);
+        background: -moz-linear-gradient(to bottom, #19367a, #5b7ac4, black);
+        background: linear-gradbient(to bottom, #19367a, #5b7ac4, black);
+        border-radius: 4px;
+        color: white;
+        display: inline-block;
+        float: left;
+        font-size: 80%;
+        margin-bottom: 0.5em;
+        z-index: 4;
+        text-align: center;
+    }
+    #clear-button {
+        padding: 7px 4px;
+    }
+    .main-button:hover{
+        background: linear-gradient(to bottom, orange, black);
+    }
+    .main-button > img {
+        width: 31px;
+        margin-bottom: 0px;
+    }
+    .divider {
+        width: 80%;
+        height: 0px;
+        border: 2px solid #325232;
+        border-radius: 4px;
+    }
+    .small-divider {
+        width: 10%;
+        height: 0px;
+        border: 2px solid deeppink;
+        border-radius: 4px;
+    }
+    #contact-dev {
+        color: black;
+        font-size: 80%;
+        padding: 6px;
+        border: 2px solid black;
+        font-weight: 500;
+        width: 70%;
+        height: auto;
+        margin-left: 8%;
+        position: absolute;
+        top: 60px;
+        display: none;
+        background-color: white;
+    }
+    .highlight {
+        font-size: 110%;
+        font-weight: bold;
+        display: inline-block;
+    }
+    /**//**//**//**//**/
+    #desktop-menu-tab {
+        display: none;
+    }
+    #desktop-menu-content {
+        display: none;
+    }
+    .lockscreen {
+        z-index: 4;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        display: block;
+        border: 2px solid red;
+    }
+    #coverscreen {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        z-index: 3;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    #notifs {
+        width: 100%;
+        height: auto; //17px;
+        text-align: center;
+        background-color: #efefef;
+        margin-top: 5px;
+        border-radius: 3px;
+    }
+    #clock {
+        font-size: 75%;
+        font-family: Helvetica;
+        width: auto;
+        color: black; //#19367a;
+        font-weight: 800;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    #online-status {
+        font-size: 55%;
+        font-family: Helvetica;
+        width: auto;
+        color: black; //#19367a;
+        font-weight: 800;
+        margin: 3px;
+        margin-bottom: 2px;
+        display: inline-block;
+        position: absolute;
+        right: 3px;
+    }
+}

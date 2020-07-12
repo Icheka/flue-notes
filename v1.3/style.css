@@ -1,0 +1,227 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2020, 8:48:39 AM
+    Author     : Icheka
+*/
+@media only screen and (min-width:769px){
+    body {
+        margin: 2px;
+        font-family: Arial, sans-serif;
+    }
+        header {
+        border: 1px solid grey;
+        color: #19367a;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        background-image: url("bg.PNG");
+        background-position: left; 
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: orange;
+        padding-bottom: 3px;
+        padding: 2px;
+        position: relative;
+        top: 0px;
+        width: 100%;
+        height: 7em;
+    }    
+    #menu-table {
+        text-align: center;
+        border-spacing: 2px;
+        border-collapse: collapse;
+    }
+    #menu-table td {
+        border: 3px solid white;
+        border-top: 0px;
+        border-bottom: 0px;
+        margin: 4px;
+        padding: 2px;
+        text-transform: uppercase;
+    }
+    .menu-tab {
+        background-color: orange;
+        padding: 8px 6px;
+        color: #325232;
+        font-weight: bold;
+        font-size: 17px;
+        margin: 2px 0px 4px;
+        border: 0px 3px solid #325232;
+        cursor: pointer;
+    }
+    #desktop-menu-tab {
+        position: absolute;
+        top: 0.5em;
+        right: 5px;
+    }
+    #desktop-menu-content {
+        width: 16em;
+        height: 9em;
+        border: 2px solid white;
+        padding: 2px;
+        margin-right: 1%;
+        background-color: indigo;
+        position: absolute;
+        top: 2.3em;
+        right: 0%;
+        display: none;
+    }
+    .menu-tab-content-button {
+        padding: 8px 6px;
+        background-color: indigo;
+        color: white;
+        font-size: 17px;
+        border-bottom: 3px solid white;
+        border-left: 0px;
+        border-top: 0px;
+        border-right: 0px;
+        margin: 0px 3px 4px;
+        cursor: pointer;
+    }
+    #main-content {
+        height: 400px;
+        width: 90%;
+        float: right;
+        margin-bottom: 15px;
+        margin-left: 6px;
+    }
+    footer {
+        clear: both;
+        padding-top: 2px;
+        text-align: center;
+        background-color: orange;
+        color: white;
+        padding-bottom: 2px;
+    }
+    footer > p {
+        font-family: joker, fantasy, "Comic Sans MS", cursive, magneto, sans-serif;
+        font-weight: bold;
+        font-size: 170%;
+    }
+    #note-area {
+        width: 100%;
+        height: 100%;
+        padding: 2px;
+        float: right;
+        resize: none;
+    }
+    #note-area:focus {
+        border: 2px solid pink;
+        background-color: #efefef;
+    }
+    .clear {
+        clear: both;
+    }
+    .button {
+        cursor: pointer;
+    }
+    .button-area {
+        text-align: center;
+        width: 7%;
+        height: 19em;
+        position: absolute;
+        top: 8em;
+        left: 4px;
+        padding: 2px 8px;
+        background-color: lightslategray;
+        z-index: 1;
+    }
+    .main-button {
+        padding: 5% 8%;
+        padding-bottom: 1%;
+        background-color: #19367a;
+        background: -webkit-linear-gradient(to bottom, #19367a, #5b7ac4, black);
+        background: -ms-linear-gradient(to bottom, #19367a, #5b7ac4, black);
+        background: -o-linear-gradient(to bottom, #19367a, #5b7ac4, black);
+        background: -moz-linear-gradient(to bottom, #19367a, #5b7ac4, black);
+        background: linear-gradbient(to bottom, #19367a, #5b7ac4, black);
+        border-radius: 4px;
+        color: white;
+        display: inline-block;
+        font-size: 80%;
+        margin-bottom: 0.5em;
+        z-index: 4;
+    }
+    
+    #clear-button {
+        padding: 15% 11%;
+    }
+    .main-button:hover{
+        background: linear-gradient(to bottom, orange, black);
+    }
+    .main-button > img {
+        width: 35px;
+        margin-bottom: 0px;
+    }
+    .divider {
+        width: 80%;
+        height: 0px;
+        border: 2px solid #325232;
+        border-radius: 4px;
+    }
+    .small-divider {
+        width: 10%;
+        height: 0px;
+        border: 2px solid deeppink;
+        border-radius: 4px;
+    }
+    #contact-dev {
+        color: black;
+        font-size: 80%;
+        padding: 6px;
+        border: 2px solid black;
+        font-weight: 500;
+        width: 90%;
+        height: 60%;
+        margin-left: 1%;
+        position: absolute;
+        top: 60px;
+        display: none;
+        background-color: white;
+    }
+    .highlight {
+        font-size: 110%;
+        font-weight: bold;
+        display: inline-block;
+    }
+    #lock-main {
+        z-index: 4;
+        width: 40%;
+        height: auto;
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        display: block;
+    }
+    #coverscreen {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        z-index: 3;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    #notifs {
+        width: 40%;
+        height: auto; //17px;
+        text-align: center;
+        background-color: #efefef;
+        margin-top: 5px;
+        border-radius: 3px;
+        margin: auto;
+        position: relative;
+        top: 3.4em;
+    }
+    #clock {
+        font-size: 75%;
+        font-family: Helvetica;
+        width: 50%;
+        color: indigo; //#19367a;
+        font-weight: 800;
+        margin: auto;
+    }
+}

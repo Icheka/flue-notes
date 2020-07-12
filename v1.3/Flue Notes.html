@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Flue Notes</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <link href="auth.css" rel="stylesheet" type="text/css" >
+        <script src="auth.js"></script>
+        
+        <link href="mobile-display.css" rel="stylesheet" type="text/css" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script async src="app.js"></script>
+    </head>
+    <body>
+    <!--    <div id="coverscreen">
+            
+        </div> -->
+        <header id="header"><br /><br />
+            <div id="name"> </div>
+            <div id="menu">      
+                <div class="menu-bar"></div>  
+                <div class="menu-bar"></div>  
+                <div class="menu-bar"></div>  
+            </div>
+            <div id="notifs">
+                <span id="online-status"></span>
+                <div id="clock"></div>
+            </div>
+            
+            <nav id="menu-content" style="width: 150px;  
+                height: 11em;                                   
+                background-color: indigo; //#5b7ac4;                         
+                display: none;
+                font-family: Arial, sans-serif;
+                margin-top: 5px; position: relative;
+                z-index: 3;">
+        
+                <a onclick="contact_developer()"><div class="menu-content-link button" style="height: auto;">Contact the developer </div></a>
+                <a onclick="load_saved()"><div class="menu-content-link button">Load saved note</div></a>
+                <div class="menu-content-link button">App Store </div>
+                <div class="menu-content-link button">App Settings </div>
+            </nav>
+            <nav id="desktop-menu-tab">
+                <table id="menu-table">
+                    <tr>
+                        <td style="border-left: 0px;"><a onclick="desktop_menu_tab()" class="menu-tab">Menu</a></td>
+                        <td><a onclick="load_saved()" class="menu-tab">Saved Note</a></td>
+                        <td style="border-right: 0px;"><a class="menu-tab">About</a></td>
+                    </tr>
+                </table>
+            </nav>
+            <nav id="desktop-menu-content">
+                <a><div onclick="contact_developer()" class="menu-tab-content-button">Contact the developer</div></a>
+                <a><div class="menu-tab-content-button">App Store</div></a>
+                <a><div class="menu-tab-content-button">App Settings</div></a>
+            </nav>
+        </header>
+        <section id="main-content">
+               <textarea id="note-area"></textarea>
+        </section>
+        <br />
+        <div class="clear button-area" style="z-index: 2">
+            <p>
+                <a class="main-button button" onclick="save_note()"><img src="button-save.jpg" /></a>
+                <a class="main-button button" onclick="clear_note()" id="clear-button">Clear</a>
+            </p>
+        </div>
+        <article id="contact-dev" class="card">
+                    <br />
+                    <hr class="divider" />
+                    <span class="highlight">Icheka</span> recently celebrated a decade of learning and working in the tech world. 
+                    Besides 20-hour coding marathons, he loves reading, writing articles on technology and men's lifestyle,
+                    and learning different web technologies.
+                    <br />
+                    <hr class="small-divider" />
+                    <u style="font-weight: bold;">You can catch him on:</u><br />
+                    <p>
+                    <span class="highlight">GitHub:</span> @icheka <br /> 
+                        <span class="highlight">Twitter:</span> @theStyledDoctor <br />
+                        <span class="highlight">Instagram:</span> @the_real_icheka <br />
+                    </p>
+        </article>
+<!--
+        <section id="lock-main" class="lockscreen">
+            <form>
+                <input class="lock-input-element" id="lock-email" type="email" name="email" placeholder="Your email" />
+                <br /><br />
+                <input class="lock-input-element" id="lock-password" type="password" name="password" placeholder="Your password" />
+                <br /><br /><br />
+                <input onclick="authenticate()" class="lock-button" id="lock-submit" type="button" name="submit" value="Login" />
+            </form>
+        </section> -->
+            
+            <footer>
+                <p>Tell me about your day.</p>
+            </footer>
+    </body>
+</html>
